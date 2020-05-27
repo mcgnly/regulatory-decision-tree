@@ -1,0 +1,17 @@
+.fancy-button {
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 24px;
+}
+.condition {
+    border: 2px solid black;
+}
+.document {
+    border: 2px solid blue;
+}
+.procedure {
+    border: 2px solid green;
+}
+.breadcrumb {
+    border: 2px solid red;
+}
