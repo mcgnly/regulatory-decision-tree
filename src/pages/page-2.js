@@ -8,12 +8,14 @@ import "./decision-tree.css"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <Link to="/page-3/" className='breadcrumb'>pg 3</Link>
-    <h1>Choose your own adventure</h1>
-    <button className='fancy-button'>this is the text in the button</button>
-    <p className='condition'>here is the condition</p>
-    <p className='document'>here is the document</p>
-    <p className='procedure'>here is the procedure</p>
+    <Link to="/page-3/" className="breadcrumb">
+      pg 3
+    </Link>
+    <h1>hi back</h1>
+    <button className="fancy-button">this is the text in the button</button>
+    <p className="condition">here is the condition</p>
+    <p className="document">here is the document</p>
+    <p className="procedure">here is the procedure</p>
   </Layout>
 )
 
