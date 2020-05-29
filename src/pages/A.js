@@ -7,6 +7,12 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
+    <p>
+      <Link className="breadcrumb" to="/">
+        {" "}
+        Home >
+      </Link>
+    </p>
     <h1>A. Administrative Changes</h1>
     <p>
       <Link className="fancy-button" to="/">

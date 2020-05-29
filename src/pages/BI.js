@@ -7,7 +7,18 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>B.I. Quality Changes - Drug Substance</h1>
+    <p>
+      <Link className="breadcrumb-1" to="/">
+        {" "}
+        Home
+      </Link>
+    </p>
+    <p>
+      <Link className="breadcrumb-2" to="/BI/">
+        {" "}
+        BI.
+      </Link>
+    </p>
     <p>
       <Link className="fancy-button" to="/BIa/">
         B.I.a) Manufacture
